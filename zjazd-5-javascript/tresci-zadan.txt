@@ -1,0 +1,92 @@
+## GET TIME
+
+Zaimplementuj funkcję `getTime`, która zwraca aktualny czas w formacie HH:mm:ss.
+Aby uzyskać informację o aktualnym czasie użyj dostępnej globalnie klasy `Date`.
+Zapoznaj się z dokumentacją `Date` dostępną na MDN Web Docs.
+Wykorzystaj wbudowaną metodę `setInterval` aby co sekundę wyświetlać aktualny czas.
+
+
+
+-----------------------------------------------------------------------------------
+
+## INTERSECTION
+
+Zaimplementuj funkcję `intersection`, która przyjmuje dwie tablice a następnie zwraca nową tablicę,
+zawietającą tylko te elementy, które występują w obydwu tablicach wejściowych.
+
+Przykład użycia:
+```
+> intersection(['a', 'd', 'f'], ['g', 'd', 'a']);
+< ['a', 'd']
+```
+
+
+-----------------------------------------------------------------------------------
+
+## PEOPLE
+
+Zaimplementuj funkcję `Person` przyjmującą dwa ciągi znaków jako argumenty, które staną się polami tej klasy o nazwach `name` i `surname`.
+Zaimplementuj funkcję `createPeople`, która dla przekazanej tablicy ciągów znaków zwróci tablicę obiektów klasy typu `Person`,
+ale tylko w przypadku kiedy ciąg znaków to dwa wyrazy zaczynające się wielką literą.
+
+Przykład użycia:
+```
+> createPeople(['Sean	Miller', 'adam', 'Russell', 'michael lee', 'Lisa Price']);
+< [Person {name: 'Sean', surname: 'Miller'}, Person {name: 'Lisa', surname: 'Price'}]
+```
+
+
+-----------------------------------------------------------------------------------
+
+## REVERSE
+
+Zaimplementuj funkcję o nazwie `reverse`, który przyjmuje ciąg znaków i zwraca go w odwrotnej kolejności.
+
+Przykład użycia:
+
+```js
+> reverse('Słowo')
+< "owołS"
+```
+
+
+-----------------------------------------------------------------------------------
+
+## TIMEOUT
+
+Zaimplementuj funkcję `setRandomTimeout` przyjmującą jako argument jedną funkcję wywołania zwrotnego (callback),
+która zostanie wywołana po losowym czasie.
+
+-----------------------------------------------------------------------------------
+
+## TITLE CASE
+
+Zaimplementuj funkcję `toTitleCase`, która przyjmuje ciąg znaków, zmienia pierwszą literę każdego wyrazu na wielką, a wszystkie pozostałe na małe.
+Funkcja powinna zwracać wynik w postaci pojedynczego ciągu znaków.
+
+
+Przykład użycia:
+
+```
+> toTitleCase('wolfgang AMADEUSZ moZARt');
+< "Wolfgang Amadeusz Mozart"
+```
+
+
+
+-----------------------------------------------------------------------------------
+
+## UNION
+
+Zaimplementuj funkcję `union` która przyjmuje dwie tablice a następnie zwraca ich sumę,
+czyli tablicę zawierającą elementy obydwu tablic wejściowych, bez powtórzeń.
+
+Przykład użycia:
+```
+> union(['a', 'e', 'g', 'b'], ['c', 'g', 'a']);
+< ['a', 'e', 'g', 'b', 'c']
+```
+
+
+
+-----------------------------------------------------------------------------------
